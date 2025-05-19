@@ -1,0 +1,62 @@
+<Menus>
+  <Menu MenuName="Home" Url="Home.aspx" Id="1" />
+  <Menu MenuName="Settings" Url="#" Id="2">
+    <ChildMenu MenuName="Create Operator" Url="CreateUser.aspx" />
+    <ChildMenu MenuName="Operator Rights" Url="UserRights.aspx" />
+    <ChildMenu MenuName="Edit  Operator" Url="UserDetail.aspx" />
+  </Menu>
+  <Menu MenuName="Content" Url="#" Id="6">
+    <ChildMenu MenuName="News and Pop Up" Url="content.aspx" />
+  </Menu>
+  <Menu MenuName="Member" Url="#" Id="13">
+    <ChildMenu MenuName="Add Member" Url="registration.aspx" />
+    <ChildMenu MenuName="Total Member" Url="Totalmembers.aspx" />
+    <ChildMenu MenuName="Active Members" Url="Activation.aspx" />
+    <ChildMenu MenuName="Deactive Member" Url="DeactiveMember.aspx" />
+  </Menu>
+  <Menu MenuName="Geneology" Url="#" Id="20">
+    <ChildMenu MenuName="Tree View" Url="TreeView.aspx" />
+    <ChildMenu MenuName="Direct Members" Url="sponsor_rpt.aspx" />
+    <ChildMenu MenuName="DownLine All" Url="DirectMemberReport.aspx" />
+  </Menu>
+  <Menu MenuName="E-PIN" Url="#" Id="37">
+    <ChildMenu MenuName="Issue E-Pin" Url="IssuePin.aspx" />
+    <ChildMenu MenuName="Search E-Pin" Url="SearchPin.aspx" />
+    <ChildMenu MenuName="Show E-Pin" Url="ShowPin.aspx" />
+    <ChildMenu MenuName="Cancel E-Pin" Url="Cancelpin.aspx" />
+    <ChildMenu MenuName="E-Pin History" Url="Epinhistory.aspx" />
+    <ChildMenu MenuName="Epin Request Detail" Url="Epin_Requests_Details.aspx" />
+  </Menu>
+  <Menu MenuName="Payout" Url="#" Id="42">
+    <ChildMenu MenuName="Direct Income" Url="directincome.aspx" />
+    <ChildMenu MenuName="Level Income" Url="levelIncome.aspx" />
+  </Menu>
+  <Menu MenuName="Reports" Url="#" Id="61">
+    <ChildMenu MenuName="Search Members" Url="Search.aspx" />
+    <ChildMenu MenuName="Login History" Url="LoginHistory.aspx" />
+    <ChildMenu MenuName="Level Wise Member" Url="LevelMemberReport.aspx" />
+  </Menu>
+  <Menu MenuName="E-Wallet" Url="#" Id="63">
+    <ChildMenu MenuName="Approve Bank Transfer" Url="IssueWalletCheques.aspx" />
+    <ChildMenu MenuName="Paid Wallet Cheque" Url="withdraw_status.aspx" />
+    <ChildMenu MenuName="Show Security Code" Url="ShowScode.aspx" />
+    <ChildMenu MenuName="E-Wallet Statement" Url="acstmt.aspx" />
+    <ChildMenu MenuName="Approve Bank Transfer" Url="WireBankApprove.aspx" />
+    <ChildMenu MenuName="Add Fund Trading" Url="fund_add_Trading.aspx" />
+  </Menu>
+  <Menu MenuName="Product" Url="#" Id="119">
+    <ChildMenu MenuName="Product Category" Url="inv_productcategory.aspx" />
+    <ChildMenu MenuName="Products" Url="inv_products.aspx" />
+    <ChildMenu MenuName="Sales Order Form" Url="inv_salesorder.aspx" />
+    <ChildMenu MenuName="Sales Report" Url="inv_salesinvoice.aspx" />
+    <ChildMenu MenuName="Create Coupon" Url="CreateCoupon.aspx" />
+  </Menu>
+  <Menu MenuName="Franchise" Url="#" Id="120">
+    <ChildMenu MenuName="Issue Franchisee" Url="inv_franchise.aspx" />
+    <ChildMenu MenuName="Show Franchisee" Url="inv_franchisedetails.aspx" />
+    <ChildMenu MenuName="Add/Remove Fund" Url="inv_franchiseAddRemoveWallet.aspx" />
+    <ChildMenu MenuName="Franchisee-Wallet Statement" Url="inv_franchiseewalletstatement.aspx" />
+    <ChildMenu MenuName="Franchisee Stock Transfer" Url="inv_cnfstoktransfer.aspx" />
+    <ChildMenu MenuName="Franchisee Stock Report" Url="inv_cnfstockdetail.aspx" />
+  </Menu>
+</Menus>
